@@ -1,0 +1,25 @@
+<div *ngIf="dataLoaded==false" class="spinner-border text-info" role="status">
+    <span class="sr-only"></span>
+  </div>
+  
+  
+  <table *ngIf="dataLoaded==true" class="table">
+      <thead>
+        <tr>
+          <th scope="col">Kullanıcı Adı</th>
+          <th scope="col">Kullanıcı Soyadı</th>
+          <th scope="col">Kiralama Tarihi</th>
+          <th scope="col">Geri Dönüş Tarihi</th>
+          <th scope="col">Araç Açıklama</th>
+          <th scope="col">Müşteri mail</th>
+        </tr>
+      </thead>
+        <tr *ngFor="let rental of rentals">
+          <th scope="row">{{rental.userName}}</th>
+          <td>{{rental.userLastName}}</td>
+          <td>{{rental.rentDate}}</td>
+          <td>{{rental.returnDate}}</td>
+          <td>{{rental.carDescription}}</td>
+          <td>{{rental.email}}</td>
+        </tr> 
+    </table>
