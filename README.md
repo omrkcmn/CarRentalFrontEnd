@@ -3,7 +3,6 @@
 # Carrental
 
 ![angular](https://user-images.githubusercontent.com/12933376/117209233-c1d21080-adfe-11eb-87a0-daa09bfecfb8.png)
-![cli](https://user-images.githubusercontent.com/12933376/117209363-e9c17400-adfe-11eb-8308-95065e291d3f.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
